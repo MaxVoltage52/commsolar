@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { Provider } from "@/types/provider";
 import { StatePolicy, LocationInfo } from "@/types/state";
@@ -17,7 +17,7 @@ interface SearchResults {
   statePolicy: StatePolicy | null;
 }
 
-export default function SearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const zipCode = searchParams.get("zip");
   const [results, setResults] = useState<SearchResults | null>(null);
@@ -158,5 +158,17 @@ export default function SearchPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={
+      <div className="max-w-6xl mx-auto text-center py-12">
+        <p className="text-xl text-gray-600">Loading results...</p>
+      </div>
+    }>
+      <SearchContent />
+    </Suspense>
   );
 }
