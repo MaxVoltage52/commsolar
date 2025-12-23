@@ -1,0 +1,94 @@
+{
+  "state": "Massachusetts",
+  "stateCode": "MA",
+  "lastUpdated": "2025-12-22",
+  "providers": [
+    {
+      "id": "nexamp-ma",
+      "name": "Nexamp",
+      "logo": null,
+      "states": ["MA", "NY", "IL", "ME"],
+      "serviceAreas": [
+        {
+          "state": "MA",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 12.5,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.nexamp.com/massachusetts-community-solar",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "solstice-ma",
+      "name": "Solstice",
+      "logo": null,
+      "states": ["MA", "NY", "IL", "CO", "DC"],
+      "serviceAreas": [
+        {
+          "state": "MA",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 15,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://solstice.us/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "common-energy-ma",
+      "name": "Common Energy",
+      "logo": null,
+      "states": ["MA", "NY", "IL"],
+      "serviceAreas": [
+        {
+          "state": "MA",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.commonenergy.us/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    }
+  ]
+}

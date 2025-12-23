@@ -1,0 +1,86 @@
+{
+  "60601": {
+    "state": "Illinois",
+    "stateCode": "IL",
+    "county": "Cook",
+    "city": "Chicago",
+    "providers": ["clearway-il", "sunscription-il", "nexamp-il", "common-energy-il", "solstice-il"]
+  },
+  "60602": {
+    "state": "Illinois",
+    "stateCode": "IL",
+    "county": "Cook",
+    "city": "Chicago",
+    "providers": ["clearway-il", "sunscription-il", "nexamp-il", "common-energy-il", "solstice-il"]
+  },
+  "62701": {
+    "state": "Illinois",
+    "stateCode": "IL",
+    "county": "Sangamon",
+    "city": "Springfield",
+    "providers": ["clearway-il", "sunscription-il", "nexamp-il"]
+  },
+  "10001": {
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "New York",
+    "city": "New York",
+    "providers": ["nexamp-ny", "common-energy-ny", "sunscription-ny"]
+  },
+  "10002": {
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "New York",
+    "city": "New York",
+    "providers": ["nexamp-ny", "common-energy-ny", "sunscription-ny"]
+  },
+  "12203": {
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "Albany",
+    "city": "Albany",
+    "providers": ["nexamp-ny", "common-energy-ny"]
+  },
+  "02108": {
+    "state": "Massachusetts",
+    "stateCode": "MA",
+    "county": "Suffolk",
+    "city": "Boston",
+    "providers": ["nexamp-ma", "solstice-ma", "common-energy-ma"]
+  },
+  "02109": {
+    "state": "Massachusetts",
+    "stateCode": "MA",
+    "county": "Suffolk",
+    "city": "Boston",
+    "providers": ["nexamp-ma", "solstice-ma", "common-energy-ma"]
+  },
+  "01602": {
+    "state": "Massachusetts",
+    "stateCode": "MA",
+    "county": "Worcester",
+    "city": "Worcester",
+    "providers": ["nexamp-ma", "solstice-ma"]
+  },
+  "55401": {
+    "state": "Minnesota",
+    "stateCode": "MN",
+    "county": "Hennepin",
+    "city": "Minneapolis",
+    "providers": ["cef-mn", "sunshare-mn", "nexamp-mn"]
+  },
+  "55402": {
+    "state": "Minnesota",
+    "stateCode": "MN",
+    "county": "Hennepin",
+    "city": "Minneapolis",
+    "providers": ["cef-mn", "sunshare-mn", "nexamp-mn"]
+  },
+  "55101": {
+    "state": "Minnesota",
+    "stateCode": "MN",
+    "county": "Ramsey",
+    "city": "Saint Paul",
+    "providers": ["cef-mn", "sunshare-mn"]
+  }
+}

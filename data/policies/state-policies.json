@@ -1,0 +1,150 @@
+{
+  "IL": {
+    "state": "Illinois",
+    "stateCode": "IL",
+    "hasLegislation": true,
+    "legislationType": "enabling",
+    "programName": "Illinois Shines (Adjustable Block Program)",
+    "description": "Illinois Shines provides incentives for solar projects through the purchase of Renewable Energy Credits (RECs). The 2021 Climate and Equitable Jobs Act (CEJA) expanded the program significantly, requiring 100% renewable energy by 2050 with provisions for low and moderate-income communities.",
+    "keyBenefits": [
+      "Typically save 10-20% on electricity bills",
+      "No upfront costs or installation required",
+      "Supports 100% renewable energy goal by 2050",
+      "Special programs for low and moderate-income households",
+      "435 MW of capacity allocated for community solar in 2025-26"
+    ],
+    "eligibility": {
+      "residentialAllowed": true,
+      "commercialAllowed": true,
+      "lowIncomePrograms": true
+    },
+    "marketSize": {
+      "totalProjects": 0,
+      "totalCapacityMW": 435,
+      "subscriberCount": 0
+    },
+    "resources": [
+      {
+        "title": "Illinois Shines Official Website",
+        "url": "https://illinoisshines.com/"
+      },
+      {
+        "title": "CUB Solar in the Community",
+        "url": "https://www.citizensutilityboard.org/solar-in-the-community/"
+      },
+      {
+        "title": "Illinois Solar for All Hotline",
+        "url": "tel:1-888-970-4732"
+      }
+    ],
+    "lastUpdated": "2025-12-22"
+  },
+  "NY": {
+    "state": "New York",
+    "stateCode": "NY",
+    "hasLegislation": true,
+    "legislationType": "enabling",
+    "programName": "NY-Sun Community Solar Program",
+    "description": "New York leads the nation in community solar capacity with over 2,410 MW-AC operational. The NY-Sun Program, administered by NYSERDA, aims to reach 3,000 MW by 2030 with increased participation from low-to-moderate income households.",
+    "keyBenefits": [
+      "Largest community solar market in the US",
+      "Typically save 5-15% on electricity bills",
+      "No upfront costs or credit checks required",
+      "Over 1,300 projects operational",
+      "Strong low-income participation programs"
+    ],
+    "eligibility": {
+      "residentialAllowed": true,
+      "commercialAllowed": true,
+      "lowIncomePrograms": true
+    },
+    "marketSize": {
+      "totalProjects": 1300,
+      "totalCapacityMW": 2410,
+      "subscriberCount": 0
+    },
+    "resources": [
+      {
+        "title": "NYSERDA Community Solar",
+        "url": "https://www.nyserda.ny.gov/All-Programs/NY-Sun/Community-Solar"
+      },
+      {
+        "title": "NY-Sun Program",
+        "url": "https://ny-sun.ny.gov/"
+      }
+    ],
+    "lastUpdated": "2025-12-22"
+  },
+  "MA": {
+    "state": "Massachusetts",
+    "stateCode": "MA",
+    "hasLegislation": true,
+    "legislationType": "enabling",
+    "programName": "SMART Program (Solar Massachusetts Renewable Target)",
+    "description": "Massachusetts operates under the SMART 3.0 program, which streamlined local permitting for community solar projects and reformed interconnection to enable 800 MW of distributed generation. The state has 905 MW of operational community solar capacity.",
+    "keyBenefits": [
+      "Typically save 10-20% on electricity bills",
+      "No upfront costs or cancellation fees",
+      "Streamlined permitting process",
+      "905 MW of operational capacity",
+      "Net crediting system for subscribers"
+    ],
+    "eligibility": {
+      "residentialAllowed": true,
+      "commercialAllowed": true,
+      "lowIncomePrograms": true
+    },
+    "marketSize": {
+      "totalProjects": 0,
+      "totalCapacityMW": 905,
+      "subscriberCount": 0
+    },
+    "resources": [
+      {
+        "title": "Massachusetts SMART Program",
+        "url": "https://www.mass.gov/solar-massachusetts-renewable-target-smart-program"
+      },
+      {
+        "title": "Community Solar Massachusetts",
+        "url": "https://www.mass.gov/community-shared-solar"
+      }
+    ],
+    "lastUpdated": "2025-12-22"
+  },
+  "MN": {
+    "state": "Minnesota",
+    "stateCode": "MN",
+    "hasLegislation": true,
+    "legislationType": "enabling",
+    "programName": "Minnesota Community Solar Gardens Program",
+    "description": "Minnesota's program underwent significant upgrades with HF 2310, creating the Low and Moderate-Income (LMI) Accessible Community Solar Garden program. Features include a 30% LMI customer carveout, consolidated billing, and a descending production cap starting at 100 MW.",
+    "keyBenefits": [
+      "Typically save 10-20% on electricity bills",
+      "30% carveout for low-moderate income customers",
+      "Consolidated billing for better customer experience",
+      "Project size limit expanded from 1 MW to 5 MW",
+      "932 MW of operational capacity"
+    ],
+    "eligibility": {
+      "residentialAllowed": true,
+      "commercialAllowed": true,
+      "lowIncomePrograms": true
+    },
+    "marketSize": {
+      "totalProjects": 0,
+      "totalCapacityMW": 932,
+      "subscriberCount": 0
+    },
+    "resources": [
+      {
+        "title": "Minnesota Community Solar Gardens",
+        "url": "https://mn.gov/commerce/energy/consumer/energy-programs/community-solar-gardens-consumers.jsp"
+      },
+      {
+        "title": "Made in Minnesota Solar Incentive Program",
+        "url": "https://mn.gov/commerce/energy/topics/resources/made-in-minnesota/"
+      }
+    ],
+    "lastUpdated": "2025-12-22"
+  }
+}

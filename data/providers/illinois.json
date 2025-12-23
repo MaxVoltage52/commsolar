@@ -1,0 +1,384 @@
+{
+  "state": "Illinois",
+  "stateCode": "IL",
+  "lastUpdated": "2025-12-22",
+  "providers": [
+    {
+      "id": "clearway-il",
+      "name": "Clearway Community Solar",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 20,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 240
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.clearwaycommunitysolar.com/illinois/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "sunscription-il",
+      "name": "Sunscription (US Solar)",
+      "logo": null,
+      "states": ["IL", "CO", "MN"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 17,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.sunscription.com/programs/illinois",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "nexamp-il",
+      "name": "Nexamp",
+      "logo": null,
+      "states": ["IL", "NY", "MA", "ME"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 15,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.nexamp.com/illinois-community-solar",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "common-energy-il",
+      "name": "Common Energy",
+      "logo": null,
+      "states": ["IL", "NY", "MA"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 15,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://commonenergy.us/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "solstice-il",
+      "name": "Solstice",
+      "logo": null,
+      "states": ["IL", "NY", "MA", "CO"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://solstice.us/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "ampion-il",
+      "name": "Ampion",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://ampion.net/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "arcadia-il",
+      "name": "Arcadia",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.arcadia.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "gejc-il",
+      "name": "Green Energy Justice Cooperative (GEJC)",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.gejc.org/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "igs-il",
+      "name": "IGS",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.igs.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "illinois-community-solar",
+      "name": "Illinois Community Solar",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://illinoiscommunitysolar.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "mc2-il",
+      "name": "MC 2 Energy Services",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://mc2es.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "powermarket-il",
+      "name": "PowerMarket",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://powermarket.io/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "solar-landscape-il",
+      "name": "Solar Landscape",
+      "logo": null,
+      "states": ["IL"],
+      "serviceAreas": [
+        {
+          "state": "IL",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://solarlandscape.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    }
+  ]
+}

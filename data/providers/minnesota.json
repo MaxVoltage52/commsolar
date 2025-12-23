@@ -1,0 +1,94 @@
+{
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "lastUpdated": "2025-12-22",
+  "providers": [
+    {
+      "id": "cef-mn",
+      "name": "Cooperative Energy Futures",
+      "logo": null,
+      "states": ["MN"],
+      "serviceAreas": [
+        {
+          "state": "MN",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 15,
+        "subscriptionFee": 25,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.cooperativeenergyfutures.com/community-solar-1",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "sunshare-mn",
+      "name": "Sunshare",
+      "logo": null,
+      "states": ["MN", "CO"],
+      "serviceAreas": [
+        {
+          "state": "MN",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 11,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://mysunshare.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "nexamp-mn",
+      "name": "Nexamp",
+      "logo": null,
+      "states": ["MN", "NY", "IL", "MA", "ME"],
+      "serviceAreas": [
+        {
+          "state": "MN",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.nexamp.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    }
+  ]
+}

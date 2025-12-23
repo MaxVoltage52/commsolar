@@ -1,0 +1,94 @@
+{
+  "state": "New York",
+  "stateCode": "NY",
+  "lastUpdated": "2025-12-22",
+  "providers": [
+    {
+      "id": "nexamp-ny",
+      "name": "Nexamp",
+      "logo": null,
+      "states": ["NY", "IL", "MA", "ME"],
+      "serviceAreas": [
+        {
+          "state": "NY",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.nexamp.com/new-york-community-solar",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "common-energy-ny",
+      "name": "Common Energy",
+      "logo": null,
+      "states": ["NY", "IL", "MA"],
+      "serviceAreas": [
+        {
+          "state": "NY",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.commonenergy.us/community-solar/new-york",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
+      "id": "sunscription-ny",
+      "name": "Sunscription",
+      "logo": null,
+      "states": ["NY", "IL", "CO", "MN"],
+      "serviceAreas": [
+        {
+          "state": "NY",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 10,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 0
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.sunscription.com/",
+        "phone": null,
+        "email": null
+      },
+      "lastUpdated": "2025-12-22"
+    }
+  ]
+}
