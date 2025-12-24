@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import ProviderCard from '@/components/ProviderCard';
-import { Provider, StatePolicy } from '@/types/provider';
+import { Provider } from '@/types/provider';
+import { StatePolicy } from '@/types/state';
 
 const STATE_MAP: { [key: string]: { name: string; code: string } } = {
   illinois: { name: 'Illinois', code: 'IL' },
@@ -34,14 +35,15 @@ async function getStatePolicy(stateCode: string) {
   }
 }
 
-export default async function StatePage({ params }: { params: { state: string } }) {
-  const stateInfo = STATE_MAP[params.state];
+export default async function StatePage({ params }: { params: Promise<{ state: string }> }) {
+  const { state } = await params;
+  const stateInfo = STATE_MAP[state];
 
   if (!stateInfo) {
     notFound();
   }
 
-  const providers = await getStateProviders(params.state);
+  const providers = await getStateProviders(state);
   const policy = await getStatePolicy(stateInfo.code);
 
   if (!providers) {
