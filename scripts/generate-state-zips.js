@@ -116,16 +116,19 @@ const STATE_PROVIDERS = {
     'solar-landscape-il'
   ],
   NY: [
+    'clearway-ny',
     'nexamp-ny',
     'common-energy-ny',
     'sunscription-ny'
   ],
   MA: [
+    'clearway-ma',
     'nexamp-ma',
     'solstice-ma',
     'common-energy-ma'
   ],
   MN: [
+    'clearway-mn',
     'cef-mn',
     'sunshare-mn',
     'nexamp-mn'

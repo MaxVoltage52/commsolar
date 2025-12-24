@@ -4,6 +4,40 @@
   "lastUpdated": "2025-12-22",
   "providers": [
     {
+      "id": "clearway-mn",
+      "name": "Clearway Community Solar",
+      "logo": null,
+      "states": ["MN", "NY", "IL", "MA"],
+      "serviceAreas": [
+        {
+          "state": "MN",
+          "counties": []
+        }
+      ],
+      "pricing": {
+        "discountRate": 20,
+        "subscriptionFee": 0,
+        "cancellationFee": 0,
+        "contractLength": 240
+      },
+      "features": {
+        "noUpfrontCost": true,
+        "cancellableAnytime": true,
+        "renewablePercentage": 100
+      },
+      "contactInfo": {
+        "website": "https://www.clearwaycommunitysolar.com/minnesota/",
+        "phone": null,
+        "email": null
+      },
+      "referralLink": "https://www.clearwaycommunitysolar.com/referral-page-friend/?qs=bGVhZGlkPTAwUVV2MDAwMDBHTGwxOCZjYW1wYWlnbmlkPTcwMVV2MDAwMDBrVlJGdCZmbmFtZT1TY290dCBGJmxlYWRjaGFubmVsPVJlZmVycmFsIEluYm91bmQmcmVmZXJyZXJpbmNlbnRpdmU9MjAwJnJlZmVyZWVpbmNlbnRpdmU9MjAwJnJlZmVycmVyZnVsZmlsbG1lbnR0eXBlPUJpbGwgQ3JlZGl0JnJlZmVyZWVmdWxmaWxsbWVudHR%20style=background-color:%20&mkt_tok=MTA2LUZRTi0wMzgAAAGe0iW5Z-GjhigAoSK0TZv-i-SAo2xT0X3yhE_UhTYS5_6KEoub2sLAH9j6uGIIpTlLRkhkpTHRSh2Aae46ZRWpC7uB3C5uq9Ixzdu6nbde46g&friend=true",
+      "promotion": {
+        "description": "$200 bill credit",
+        "expiresAt": "2026-01-31"
+      },
+      "lastUpdated": "2025-12-22"
+    },
+    {
       "id": "cef-mn",
       "name": "Cooperative Energy Futures",
       "logo": null,
