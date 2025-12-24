@@ -1,4 +1,5 @@
 import ZipCodeSearch from "@/components/ZipCodeSearch";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,8 +11,38 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="bg-white rounded-lg shadow-md p-8 mb-12">
+      <div className="bg-white rounded-lg shadow-md p-8 mb-8">
         <ZipCodeSearch />
+      </div>
+
+      <div className="text-center mb-12">
+        <p className="text-gray-600 mb-3">Or browse providers by state:</p>
+        <div className="flex flex-wrap justify-center gap-3">
+          <Link
+            href="/states/illinois"
+            className="px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-lg font-medium transition-colors"
+          >
+            Illinois
+          </Link>
+          <Link
+            href="/states/new-york"
+            className="px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-lg font-medium transition-colors"
+          >
+            New York
+          </Link>
+          <Link
+            href="/states/massachusetts"
+            className="px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-lg font-medium transition-colors"
+          >
+            Massachusetts
+          </Link>
+          <Link
+            href="/states/minnesota"
+            className="px-4 py-2 bg-blue-100 hover:bg-blue-200 text-blue-800 rounded-lg font-medium transition-colors"
+          >
+            Minnesota
+          </Link>
+        </div>
       </div>
 
       <div className="grid md:grid-cols-3 gap-6">
