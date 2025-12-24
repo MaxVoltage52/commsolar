@@ -24,6 +24,11 @@ export interface Provider {
     phone?: string;
     email?: string;
   };
+  referralLink?: string;             // Optional referral/affiliate link
+  promotion?: {
+    description: string;             // e.g., "$200 bill credit"
+    expiresAt?: string;              // ISO date string
+  };
   lastUpdated: string;               // ISO date string
 }
 
