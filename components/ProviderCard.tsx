@@ -3,7 +3,7 @@
 import { Provider } from "@/types/provider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, CheckCircle2, XCircle, Gift, Calendar } from "lucide-react";
+import { ExternalLink, CheckCircle2, XCircle, Tag } from "lucide-react";
 
 interface ProviderCardProps {
   provider: Provider;
@@ -24,100 +24,109 @@ export default function ProviderCard({ provider }: ProviderCardProps) {
   const signupLink = referralLink || contactInfo.website;
 
   return (
-    <Card className="hover:shadow-lg transition-shadow">
-      <CardHeader>
-        <CardTitle className="text-xl">{name}</CardTitle>
+    <Card className="hover:shadow-xl transition-all duration-300 border-slate-200 bg-white h-full flex flex-col">
+      <CardHeader className="pb-4">
+        <CardTitle className="text-lg font-semibold text-slate-900">{name}</CardTitle>
         <CardDescription>
-          <span className="text-2xl font-bold text-green-600">
-            {pricing.discountRate}% Savings
+          <span className="text-3xl font-bold text-slate-900">
+            {pricing.discountRate}%
           </span>
+          <span className="text-sm text-slate-600 ml-2">savings</span>
         </CardDescription>
       </CardHeader>
 
-      {/* Promotional Banner */}
+      {/* Promotional Banner - More subtle design */}
       {isPromotionActive && (
-        <div className="mx-6 mb-4 p-3 bg-gradient-to-r from-green-50 to-emerald-50 border-2 border-green-500 rounded-lg">
-          <div className="flex items-start gap-2">
-            <Gift className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
+        <div className="mx-6 mb-4 px-3 py-2 bg-blue-50 border border-blue-200 rounded-md">
+          <div className="flex items-center gap-2">
+            <Tag className="h-4 w-4 text-blue-600 flex-shrink-0" />
             <div className="flex-1">
-              <p className="font-semibold text-green-900 text-sm">
-                🎉 Special Offer!
-              </p>
-              <p className="text-green-800 text-sm mt-1">
+              <p className="text-sm font-medium text-blue-900">
                 {promotion.description}
               </p>
               {promotion.expiresAt && (
-                <div className="flex items-center gap-1 mt-1">
-                  <Calendar className="h-3 w-3 text-green-700" />
-                  <p className="text-xs text-green-700">
-                    Expires {new Date(promotion.expiresAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                  </p>
-                </div>
+                <p className="text-xs text-blue-700 mt-0.5">
+                  Offer expires {new Date(promotion.expiresAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                </p>
               )}
             </div>
           </div>
         </div>
       )}
 
-      <CardContent className="space-y-4">
+      <CardContent className="space-y-6 flex-1 flex flex-col">
         {/* Pricing Details */}
-        <div className="space-y-2">
-          <h4 className="font-semibold text-sm">Pricing Details:</h4>
-          <ul className="text-sm space-y-1">
+        <div className="space-y-3">
+          <h4 className="font-semibold text-sm text-slate-700">Pricing Details</h4>
+          <ul className="text-sm space-y-2 text-slate-600">
             {pricing.subscriptionFee && pricing.subscriptionFee > 0 ? (
-              <li>Subscription Fee: ${pricing.subscriptionFee}/month</li>
+              <li className="flex justify-between">
+                <span>Subscription Fee:</span>
+                <span className="font-medium">${pricing.subscriptionFee}/mo</span>
+              </li>
             ) : null}
             {pricing.cancellationFee && pricing.cancellationFee > 0 ? (
-              <li>Cancellation Fee: ${pricing.cancellationFee}</li>
+              <li className="flex justify-between">
+                <span>Cancellation Fee:</span>
+                <span className="font-medium">${pricing.cancellationFee}</span>
+              </li>
             ) : null}
             {pricing.contractLength && pricing.contractLength > 0 ? (
-              <li>Contract: {pricing.contractLength} months</li>
+              <li className="flex justify-between">
+                <span>Contract:</span>
+                <span className="font-medium">{pricing.contractLength} months</span>
+              </li>
             ) : (
-              <li className="text-green-600">No long-term contract</li>
+              <li className="flex justify-between">
+                <span>Contract:</span>
+                <span className="font-medium text-blue-600">No commitment</span>
+              </li>
             )}
           </ul>
         </div>
 
         {/* Features */}
-        <div className="space-y-2">
-          <h4 className="font-semibold text-sm">Features:</h4>
-          <ul className="text-sm space-y-1">
-            <li className="flex items-center gap-2">
+        <div className="space-y-3 flex-1">
+          <h4 className="font-semibold text-sm text-slate-700">Features</h4>
+          <ul className="text-sm space-y-2">
+            <li className="flex items-center gap-2 text-slate-600">
               {features.noUpfrontCost ? (
-                <CheckCircle2 className="h-4 w-4 text-green-600" />
+                <CheckCircle2 className="h-4 w-4 text-blue-600 flex-shrink-0" />
               ) : (
-                <XCircle className="h-4 w-4 text-gray-400" />
+                <XCircle className="h-4 w-4 text-slate-400 flex-shrink-0" />
               )}
-              No upfront costs
+              <span>No upfront costs</span>
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-2 text-slate-600">
               {features.cancellableAnytime ? (
-                <CheckCircle2 className="h-4 w-4 text-green-600" />
+                <CheckCircle2 className="h-4 w-4 text-blue-600 flex-shrink-0" />
               ) : (
-                <XCircle className="h-4 w-4 text-gray-400" />
+                <XCircle className="h-4 w-4 text-slate-400 flex-shrink-0" />
               )}
-              Cancel anytime
+              <span>Cancel anytime</span>
             </li>
-            <li className="flex items-center gap-2">
-              <CheckCircle2 className="h-4 w-4 text-green-600" />
-              {features.renewablePercentage}% Renewable Energy
+            <li className="flex items-center gap-2 text-slate-600">
+              <CheckCircle2 className="h-4 w-4 text-blue-600 flex-shrink-0" />
+              <span>{features.renewablePercentage}% Renewable Energy</span>
             </li>
           </ul>
         </div>
 
         {/* CTA Button */}
-        <Button
-          className="w-full"
-          onClick={() => window.open(signupLink, "_blank")}
-        >
-          {isPromotionActive ? "Claim Offer & Sign Up" : "Visit Website"}
-          <ExternalLink className="ml-2 h-4 w-4" />
-        </Button>
-        {referralLink && (
-          <p className="text-xs text-gray-500 text-center mt-2">
-            Referral link - supports this site at no cost to you
-          </p>
-        )}
+        <div className="space-y-2 mt-auto">
+          <Button
+            className="w-full bg-slate-900 hover:bg-slate-800 text-white"
+            onClick={() => window.open(signupLink, "_blank")}
+          >
+            {isPromotionActive ? "View Offer" : "Learn More"}
+            <ExternalLink className="ml-2 h-4 w-4" />
+          </Button>
+          {referralLink && (
+            <p className="text-xs text-slate-500 text-center">
+              Affiliate link · Supports this site at no cost to you
+            </p>
+          )}
+        </div>
       </CardContent>
     </Card>
   );

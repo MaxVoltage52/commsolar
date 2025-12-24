@@ -13,33 +13,36 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        <header className="border-b">
-          <div className="container mx-auto px-4 py-4">
+      <body className="antialiased bg-slate-50">
+        <header className="bg-white border-b border-slate-200">
+          <div className="container mx-auto px-4 py-6">
             <div className="flex items-center justify-between">
               <div>
-                <a href="/" className="text-2xl font-bold text-green-600 hover:text-green-700">
+                <a href="/" className="text-2xl font-bold text-slate-900 hover:text-slate-700">
                   Community Solar Finder
                 </a>
-                <p className="text-sm text-gray-600">Find and compare community solar providers nationwide</p>
+                <p className="text-sm text-slate-600 mt-1">Compare solar providers and save on your electricity bill</p>
               </div>
-              <nav className="hidden md:flex gap-6">
-                <a href="/" className="text-gray-700 hover:text-green-600">
+              <nav className="hidden md:flex gap-8">
+                <a href="/" className="text-slate-700 hover:text-slate-900 font-medium transition-colors">
                   Home
                 </a>
-                <a href="/calculator" className="text-gray-700 hover:text-green-600">
+                <a href="/calculator" className="text-slate-700 hover:text-slate-900 font-medium transition-colors">
                   Calculator
                 </a>
               </nav>
             </div>
           </div>
         </header>
-        <main className="container mx-auto px-4 py-8">
+        <main className="container mx-auto px-4 py-12">
           {children}
         </main>
-        <footer className="border-t mt-12">
-          <div className="container mx-auto px-4 py-6 text-center text-sm text-gray-600">
-            <p>Community Solar Finder - Helping you save money with clean energy</p>
+        <footer className="bg-white border-t border-slate-200 mt-16">
+          <div className="container mx-auto px-4 py-8">
+            <div className="text-center text-sm text-slate-600">
+              <p className="font-medium">Community Solar Finder</p>
+              <p className="mt-1">Helping you save money with clean, renewable energy</p>
+            </div>
           </div>
         </footer>
       </body>

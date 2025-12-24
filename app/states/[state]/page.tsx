@@ -52,28 +52,28 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
 
   return (
     <div className="max-w-6xl mx-auto">
-      <div className="mb-8">
-        <Link href="/" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
+      <div className="mb-10">
+        <Link href="/" className="text-slate-600 hover:text-slate-900 mb-6 inline-block font-medium">
           ← Back to search
         </Link>
-        <h1 className="text-4xl font-bold mb-4">
+        <h1 className="text-4xl font-bold mb-4 text-slate-900">
           Community Solar Providers in {stateInfo.name}
         </h1>
-        <p className="text-xl text-gray-600">
+        <p className="text-xl text-slate-600">
           {providers.length} provider{providers.length !== 1 ? 's' : ''} available in {stateInfo.name}
         </p>
       </div>
 
       {policy && (
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
-          <h2 className="text-2xl font-bold mb-3">{policy.programName || 'State Program'}</h2>
-          <p className="text-gray-700 mb-4">{policy.description}</p>
+        <div className="bg-white border border-slate-200 rounded-xl p-8 mb-10 shadow-sm">
+          <h2 className="text-2xl font-bold mb-3 text-slate-900">{policy.programName || 'State Program'}</h2>
+          <p className="text-slate-700 mb-6 leading-relaxed">{policy.description}</p>
           {policy.keyBenefits && policy.keyBenefits.length > 0 && (
             <div>
-              <h3 className="font-semibold mb-2">Key Benefits:</h3>
-              <ul className="list-disc list-inside space-y-1">
+              <h3 className="font-semibold mb-3 text-slate-900">Key Benefits</h3>
+              <ul className="list-disc list-inside space-y-2">
                 {policy.keyBenefits.map((benefit, index) => (
-                  <li key={index} className="text-gray-700">{benefit}</li>
+                  <li key={index} className="text-slate-700">{benefit}</li>
                 ))}
               </ul>
             </div>

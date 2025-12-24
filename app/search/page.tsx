@@ -86,15 +86,15 @@ function SearchContent() {
       )}
 
       {/* Results Message */}
-      <Card className={results.available ? "border-green-200 bg-green-50" : "border-yellow-200 bg-yellow-50"}>
+      <Card className={results.available ? "border-blue-200 bg-blue-50" : "border-amber-200 bg-amber-50"}>
         <CardContent className="pt-6">
           <div className="flex items-start gap-3">
             {results.available ? (
-              <CheckCircle2 className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" />
+              <CheckCircle2 className="h-6 w-6 text-blue-600 flex-shrink-0 mt-0.5" />
             ) : (
-              <AlertCircle className="h-6 w-6 text-yellow-600 flex-shrink-0 mt-0.5" />
+              <AlertCircle className="h-6 w-6 text-amber-600 flex-shrink-0 mt-0.5" />
             )}
-            <p className={`text-lg ${results.available ? "text-green-900" : "text-yellow-900"}`}>
+            <p className={`text-lg ${results.available ? "text-blue-900" : "text-amber-900"}`}>
               {results.message}
             </p>
           </div>
